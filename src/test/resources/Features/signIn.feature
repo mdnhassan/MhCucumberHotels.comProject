@@ -16,7 +16,7 @@ Feature: Test Hotel.com website sign in functionalities
 
     Examples:
       | Email                   | Password  |
-      | munni_rahaman@yahoo.com | Mdhas842@ |
+      | mdnhassan842@gmail.com  | Mdhas842@ |
   @NegativeSignInTest
   Scenario: check sign in functionality is working with invalid credentials
     And enter invalid Email address and Password
