@@ -18,7 +18,7 @@ Feature: Test Hotel.com website sign up functionalities
 #    change email address every time you run a test to check valid account creation functionality.
     Examples:
       | email                   | password | firstName | lastName |
-      | munni_rahaman@yahoo.com | Mdha842@ | munni     | rahaman  |
+      | rifatahmed@yahoo.com    | Mdha842@ | munni     | rahaman  |
 
   @NegativeSignUpTestInvalidEmail
   Scenario: check sign up functionality with invalid email
