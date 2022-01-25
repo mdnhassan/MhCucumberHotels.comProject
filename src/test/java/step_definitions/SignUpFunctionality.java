@@ -48,7 +48,7 @@ public class SignUpFunctionality {
 
     @And("click on Create Account button")
     public void clickCreateAccButton() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         ActOn.element(driver, CreateAccButton).click();
         LOGGER.info("User click on Create Account button");
     }
