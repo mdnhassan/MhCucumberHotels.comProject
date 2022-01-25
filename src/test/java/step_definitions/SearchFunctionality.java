@@ -23,7 +23,7 @@ public class SearchFunctionality {
     @When("^user enter destination\"(.+?)\"$")
     public void enterDestination(String destination) throws InterruptedException {
         ActOn.element(driver, SearchBox).setValue(destination);
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         LOGGER.info("User enters destination");
     }
 
