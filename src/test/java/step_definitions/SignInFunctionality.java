@@ -49,7 +49,7 @@ public class SignInFunctionality {
     public void enterValidCredential(String Email, String Password) throws InterruptedException {
         ActOn.element(driver, SignInEmail).setValue(Email);
         ActOn.element(driver, SignInPassword).setValue(Password);
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         LOGGER.info("User enter valid sign in credential");
     }
 
